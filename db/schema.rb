@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20140625231511) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "rating",        default: 3
-    t.string   "similar"
   end
 
   create_table "users", force: true do |t|
