@@ -8,6 +8,7 @@ gem 'pry-rails'
 gem 'rottentomatoes'
 gem 'dotenv-rails'
 gem 'unicorn'
+gem 'travis'
 
 gem 'sqlite3', group: :development
 
