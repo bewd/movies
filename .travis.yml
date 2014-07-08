@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.1.2
 
+script:
+
 deploy:
   provider: heroku
   app: joescoolmovies
