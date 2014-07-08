@@ -1,6 +1,11 @@
+language: ruby
+rvm:
+  - 2.1.2
+
 deploy:
   provider: heroku
   app: joescoolmovies
+  strategy: git
   api_key:
     secure: Brpvh7eo38dGOVRZIzeQsZ7os+p7Ao4U02QIepafmKAXHkqRg3lS1Vta14Ivm7+273OhqlmyBZksNTCUrQyQmTTh45715+USgF2qTTdsEZhpowbHl3dfT3fvPayoIOozKAGxESp53GGtRQr8BBnGXBZiycnp43qfn6p4pYosJVQ=
 
